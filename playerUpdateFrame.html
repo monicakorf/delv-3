@@ -2,24 +2,71 @@
 <html lang="">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="steps.css"  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COACH</title>
+        <link rel="stylesheet" type="text/css" href="steps.css"  />
+
+    <title>STEPS: Update Player Profile</title>
 </head>
 
 <body>
-    
-        <a href="playerFrame.html">Back to Player Home</a>
+  <h1>Welcome Coach!</h1>
+  <h4>Sports Tournament Enterprise Playoff System</h4>
+  <h3>Update Player Profile</h3>
+  <table style="width:100%">
+    <tr>
+      <th>
+        <select>
+          <option value="" disabled selected>Select Existing Player</option>
+          <option value="Player1">Player1</option>
+          <option value="Player2">Player2</option>
+          <option value="Player3">Player3</option>
+          <option value="Player4">Player4</option>
+        </select>
+      </th>
+      <th>
+        <input type="text" name="emergencyContactName" placeholder="Emergency Contact Name">
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <input type="text" name="fname" placeholder="First Name">
+        <input type="text" name="lname" placeholder="Last Name">
+      </th>
+      <th>
+        <input type="text" name="emergencyContactPhone" placeholder="Emergency Contact Phone">
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <input type="text" name="email" placeholder="Email Address">
+      </th>
+      <th>
+        <input type="text" name="username" placeholder="Username">
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <input type="text" name="phoneNumber" placeholder="Phone Number">
+      </th>
+      <th>
+        <input type="text" name="password" placeholder="Password">
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <input type="text" name="teamName" placeholder="Team Name">
+      </th>
+      <th>
+        <input type="text" name="confirmPassword" placeholder="Confirm Password">
+      </th>
+    </tr>
+    <br>
+  </table>
+  <br/>
+  <button>Preview</button>
+  <button>Submit</button>
+  <br/>
+  <button type="button" onclick="window.location.href='coachFrame.html'">Back to Admin Home</button>
 
-    WELCOME TO STEPS <br>
-    
-    Player contact info update 
-
-
-    
-    
-    
-    
-    
 </body>
 </html>
