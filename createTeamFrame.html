@@ -11,24 +11,41 @@
     
         <a href="coachFrame.html">Back to Coach Home</a><br>
 
-    WELCOME TO STEPS <br>
+    <h1>Create Team Profile and Assign Division!</h1>
     
-    <input type="text" placeholder="Team Name" name="uname" required>
+    <label>Team Name:</label><input type="text" placeholder="" name="uname" required>
+    <label>Sports Type:</label>
     <select>
         <option value="Basketball">Basketball</option>
         <option value="Football">Football</option>
         <option value="Soccer">Soccer</option>
         <option value="Other">Other</option>
     </select>
-    <input type="text" placeholder="Division" name="uname" required>
-    <input type="text" placeholder="Player Number" name="uname" required>
-    <input type="text" placeholder="Player Name" name="uname" required>
-
-
+    <label>Division:</label><input type="text" placeholder="" name="uname" required><br><br>
     
+    <h3>Add Players:</h3>
+    <label>Player Name (First, Last):</label><input type="text" placeholder="" name="uname">
+    <label>Player Number:</label><input type="text" placeholder="" name="uname">    
+    <button>Add</button>
     
+    <h3>Players Added Shown Below:</h3>
+    <table>
+        <tr>
+            <th>Number</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Jane Doe</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>John Doe</td>
+        </tr>
+    </table>
     
-    
-    
+    <button>Preview</button>
+    <button>Submit</button>
+    <button><a href="coachFrame.html">Cancel</a></button>
 </body>
 </html>
