@@ -13,23 +13,23 @@
 
     <h1>Create Team Profile and Assign Division!</h1>
     
-    <label>Team Name:</label><input type="text" placeholder="" name="uname" required>
-    <label>Sports Type:</label>
+    <input type="text" placeholder="Team Name" name="uname" required>
     <select>
+        <option value="Sport" selected="selected" disabled>Select Sport</option>
         <option value="Basketball">Basketball</option>
         <option value="Football">Football</option>
         <option value="Soccer">Soccer</option>
         <option value="Other">Other</option>
     </select>
-    <label>Division:</label><input type="text" placeholder="" name="uname" required><br><br>
+    <input type="text" placeholder="Division" name="uname" required><br><br>
     
     <h3>Add Players:</h3>
-    <label>Player Name (First, Last):</label><input type="text" placeholder="" name="uname">
-    <label>Player Number:</label><input type="text" placeholder="" name="uname">    
+    <input type="text" placeholder="PLayer Name (First,Last)" name="uname">
+    <input type="text" placeholder="PLayer Number" name="uname"><br>    
     <button>Add</button>
     
     <h3>Players Added Shown Below:</h3>
-    <table>
+    <table align="center">
         <tr>
             <th>Number</th>
             <th>Name</th>
