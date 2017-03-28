@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+    <style>
+      .div1 {
+        display: inline-grid;
+      }
+      .div2 {
+        clear: both;
+      }
+      th{
+        text-align: left;
+        padding: 8px;
+        }
+      td {
+        text-align: center;
+        padding: 20px;
+      }
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+      table {
+        float: right;
+        width: 500px;
+        margin-right: 330px;
+      }
+    </style>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="steps.css"  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +33,39 @@
 </head>
 
 <body>
-    
-        <a href="adminFrame.html">Back to Admin Home</a>
+    <a href="adminFrame.html">Back to Admin Home</a>
+    <h1>Welcome Admin!</h1>
+    <h3>Sports Tournament Enterprise Playoff System</h3>
+    <h2>Create Division</h2>
 
-    WELCOME TO STEPS <br>
-    
-    
-    create division winner
-    
-
-    
-    
-    
-    
-    
+<form action="#" method="post" style="border:1px solid #ccc">
+  <div class="div1">
+    <table>
+      <tr><th>Teams to add to Division</th></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td>No Teams Added</td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+    </table>
+    <select name="sport">
+      <option value="value1" selected>Select Sport</option>
+      <option value="value2">Basketball</option>
+      <option value="value3">Football</option>
+      <option value="value4">Soccer</option>
+      <option value="value5">Baseball</option>
+      <option value="value6">Volleyball</option>
+    </select><br>
+    <input type="text" placeholder="Division Name" name="dname" required><br>
+    <input type="text" placeholder="Region Name" name="rname" required><br>
+    <input type="text" placeholder="Team Name" name="tname" required>
+    <button type="add" class="addbtn"onclick="">Add Team</button>
+  </div>
+  <div class="div2">
+    <button type="submit" class="submitbtn"onclick="window.location.href='adminFrame.html'">Create Division</button>
+    <button type="button" class="cancelbtn"onclick="window.location.href='adminFrame.html'">Cancel</button>
+  </div>
 </body>
 </html>

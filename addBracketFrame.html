@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+    <style>
+      .div1 {
+        display: inline-grid;
+      }
+    </style>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="steps.css"  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +19,7 @@
     <h2>Add Bracket</h2>
 
 <form action="#" method="post" style="border:1px solid #ccc">
-  <div class="container" >
+  <div class="div1">
     <select name="sport">
       <option value="value1" selected>Select Sport</option>
       <option value="value2">Basketball</option>
@@ -22,14 +27,6 @@
       <option value="value4">Soccer</option>
       <option value="value5">Baseball</option>
       <option value="value6">Volleyball</option>
-    </select>
-    <select name="division">
-      <option value="value1" selected>Select Division</option>
-      <option value="value2">SEC</option>
-      <option value="value3">ACC</option>
-      <option value="value4">NFC</option>
-      <option value="value5">AEC</option>
-      <option value="value6">Big 10</option>
     </select>
     <select name="team1">
       <option value="value1" selected>Select Team 1</option>
@@ -39,6 +36,16 @@
       <option value="value5">team 4</option>
       <option value="value6">team 5</option>
     </select>
+  </div>
+  <div class="div1">
+    <select name="division">
+      <option value="value1" selected>Select Division</option>
+      <option value="value2">SEC</option>
+      <option value="value3">ACC</option>
+      <option value="value4">NFC</option>
+      <option value="value5">AEC</option>
+      <option value="value6">Big 10</option>
+    </select>
     <select name="team2">
       <option value="value1" selected>Select Team 2</option>
       <option value="value2">team 1</option>
@@ -47,11 +54,11 @@
       <option value="value5">team 4</option>
       <option value="value6">team 5</option>
     </select>
-    <div class="clearfix">
-      <button type="button" class="cancelbtn"onclick="window.location.href='adminFrame.html'">Cancel</button>
-      <button type="submit" class="submitbtn"onclick="window.location.href='adminFrame.html'">Submit</button>
-    </div>
-</div>
+  </div><br>
+  <div class="clearfix">
+    <button type="submit" class="submitbtn"onclick="window.location.href='adminFrame.html'">Submit</button>
+    <button type="button" class="cancelbtn"onclick="window.location.href='adminFrame.html'">Cancel</button>
+  </div>
 </form>
 </body>
 </html>
