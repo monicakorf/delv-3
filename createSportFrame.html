@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+    <style>
+    </style>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="steps.css"  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +10,19 @@
 </head>
 
 <body>
-    
     <a href="adminFrame.html">Back to Admin Home</a>
-    WELCOME TO STEPS <br>
-    
-    Create Sport
+    <h1>Welcome Admin!</h1>
+    <h3>Sports Tournament Enterprise Playoff System</h3>
+    <h2>Create Sport</h2>
 
+<form action="#" method="post" style="border:1px solid #ccc">
+  <input type="text" placeholder="Sport Name" name="sname" required><br>
+  <label><b>Upload Icon:</b></label>
+  <input type="file" name="pic" accept="image/*"><br><br>
 
-    
-    
-    
-    
-    
+  <div class="clearfix">
+    <button type="submit" class="submitbtn"onclick="window.location.href='adminFrame.html'">Create Sport</button><br>
+    <button type="cancel" class="cancelbtn"onclick="window.location.href='adminFrame.html'">Cancel</button>
+  </div>
 </body>
 </html>
