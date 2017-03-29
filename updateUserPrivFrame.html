@@ -2,24 +2,34 @@
 <html lang="">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="steps.css"  />
+        <link rel="stylesheet" type="text/css" href="steps.css"  />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMIN</title>
+    <title>STEPS: Update User Privileges</title>
 </head>
 
 <body>
-    
-            <a href="adminFrame.html">Back to Admin Home</a>
-
-    WELCOME TO STEPS <br>
-    
-    
-update user privileges 
-
-    
-    
-    
-    
-    
+    <h1>Welcome Admin!</h1>
+    <h4>Sports Tournament Enterprise Playoff System</h4>
+    <h3>Update User Privilege</h3>
+    <select>
+      <option value="" disabled selected>Select User</option>
+        <option value="User1">User1</option>
+        <option value="User2">User2</option>
+        <option value="User3">User3</option>
+        <option value="User4">User4</option>
+    </select>
+    <select>
+        <option value="" disabled selected>Select Permission</option>
+        <option value="ADMIN">ADMIN</option>
+        <option value="COACH">COACH</option>
+        <option value="PLAYER">PLAYER</option>
+        <option value="GUEST">GUEST</option>
+    </select>
+    <br/>
+    <button>Remove User</button>
+    <button>Update User</button>
+    <br/>
+    <button type="button" onclick="window.location.href='adminFrame.html'">Back to Admin Home</button>
 </body>
 </html>
